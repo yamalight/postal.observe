@@ -44,7 +44,7 @@
     "rx": "^2.5.3"
   },
   "bundleDependencies": [
-    "underscore"
+    "rx"
   ],
   "devDependencies": {
     "bower": "~1.4.1",
