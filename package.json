@@ -1,0 +1,75 @@
+{
+  "name": "postal.observe",
+  "description": "A postal.js plugin that provides a way to get a subscription as Rx.Observable",
+  "version": "0.1.0",
+  "homepage": "https://github.com/yamalight/postal.observe",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:yamalight/postal.observe.git"
+  },
+  "author": "Tim Ermilov <yamalight@gmail.com> (http://codezen.net)",
+  "contributors": [
+    {
+      "name": "Tim Ermilov",
+      "email": "yamalight@gmail.com",
+      "url": "http://codezen.net"
+    }
+  ],
+  "keywords": [
+    "pub/sub",
+    "pub",
+    "sub",
+    "messaging",
+    "message",
+    "bus",
+    "event",
+    "mediator",
+    "broker",
+    "envelope",
+    "reactive",
+    "rxjs"
+  ],
+  "bugs": {
+    "email": "yamalight@gmail.com",
+    "url": "https://github.com/yamalight/postal.observe/issues"
+  },
+  "directories": {
+    "lib": "lib"
+  },
+  "main": "lib/postal.observe.js",
+  "engines": {
+    "node": ">=0.4.0"
+  },
+  "dependencies": {
+    "rx": "^2.5.3"
+  },
+  "bundleDependencies": [
+    "underscore"
+  ],
+  "devDependencies": {
+    "bower": "~1.4.1",
+    "gulp-util": "~3.0.5",
+    "gulp": "~3.9.0",
+    "gulp-imports": "~0.0.3",
+    "gulp-header": "~1.2.2",
+    "gulp-hint-not": "~0.0.3",
+    "gulp-uglify": "~1.2.0",
+    "gulp-rename": "~1.2.2",
+    "gulp-plato": "~1.0.2",
+    "gulp-beautify": "~1.1.2",
+    "express": "~4.12.4",
+    "open": "~0.0.5",
+    "expect.js": "~0.3.1"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://www.opensource.org/licenses/mit-license.php"
+    }
+  ],
+  "scripts": {
+    "test": "mocha ./spec/*.js",
+    "build": "gulp",
+    "start": "gulp server"
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "name": "postal.observe",
+  "version": "0.1.0",
+  "description": "A postal.js plugin that provides a way to get a subscription as Rx.Observable",
+  "homepage": "https://github.com/yamalight/postal.observe",
+  "keywords": [
+    "pub/sub",
+    "pub",
+    "sub",
+    "messaging",
+    "message",
+    "bus",
+    "event",
+    "mediator",
+    "broker",
+    "envelope",
+    "reactive",
+    "rxjs"
+  ],
+  "author": "Tim Ermilov <yamalight@gmail.com> (http://codezen.net)",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:yamalight/postal.observe.git"
+  },
+  "main": [
+    "lib/postal.observe.min.js",
+    "lib/postal.observe.js"
+  ],
+  "dependencies": {
+    "rxjs": "~2.5.2"
+  },
+  "devDependencies": {
+    "jquery": "~2.1.4",
+    "bootstrap": "~3.3.4",
+    "expect": "0.3.1",
+    "mocha": "~2.2.5",
+    "requirejs": "~2.1.10",
+    "postal.js": "~1.0.6",
+    "postal.diagnostics": "~0.7.0"
+  },
+  "resolutions": {
+    "lodash": "~3.9.3"
+  }
+}
