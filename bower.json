@@ -27,7 +27,7 @@
     "lib/postal.observe.js"
   ],
   "dependencies": {
-    "rxjs": "~2.5.2"
+    "rxjs": "~4.0.7"
   },
   "devDependencies": {
     "jquery": "~2.1.4",

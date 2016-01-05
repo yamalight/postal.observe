@@ -4,7 +4,7 @@
     var expect = typeof window === 'undefined' ? require('expect.js') : window.expect;
     var _ = typeof window === 'undefined' ? require('lodash') : window._;
     var Rx = typeof window === 'undefined' ? require('rx') : window.Rx;
-    var postalObserve = typeof window === 'undefinde' ? require('../lib/postal.observe.js')(postal) : window.postal;
+    var postalObserve = typeof window === 'undefined' ? require('../lib/postal.observe.js')(postal) : window.postal;
     var subscription;
     var sub;
     var channel;
