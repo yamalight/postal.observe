@@ -1,7 +1,7 @@
 {
   "name": "postal.observe",
   "description": "A postal.js plugin that provides a way to get a subscription as Rx.Observable",
-  "version": "0.1.1",
+  "version": "0.2.0",
   "homepage": "https://github.com/yamalight/postal.observe",
   "repository": {
     "type": "git",
