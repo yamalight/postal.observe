@@ -1,5 +1,7 @@
 # postal.observe
 
+[![No Maintenance Intended](http://unmaintained.tech/badge.svg)](http://unmaintained.tech/)
+
 ## What is It?
 postal.observe is a plugin for [postal.js](https://github.com/ifandelse/postal.js) which enables reactive style subscriptions (using [RxJS](https://github.com/Reactive-Extensions/RxJS)) for a postal message bus.
 
